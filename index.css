@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5c2d91;
+}
+
+.logo span {
+    color: #fc753a;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav .sign-up {
+    background-color: #5c2d91;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+main {
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #5c2d91;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+.get-started {
+    background-color: #5c2d91;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.services button {
+    background-color: #5c2d91;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ab8fc4;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .partners img {
+    margin: 0 10px;
+}
